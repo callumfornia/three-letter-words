@@ -12,6 +12,7 @@ while game == "play":
 
 	else:
 			if new in words:
+				#The user already entered this word.
 				game = "over"
 				print("You alread said that word. Game over.")
 				print("You know " + str(len(words)) + " 3-letter words.")
